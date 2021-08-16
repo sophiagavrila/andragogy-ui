@@ -52,17 +52,17 @@ export default ({
   ],
   heading = (
     <>
-      Find Perfect Hotels
+      A Step-By-Step Guide
       <wbr />
       <br />
-      <span tw="text-primary-500">anywhere you go.</span>
+      <span tw="text-primary-500">to Effective Training</span>
     </>
   ),
   description = "We've been in the hotels business across the world for 5 years now. We assure you that you will always enjoy your stay with us.",
   primaryActionUrl = "#",
-  primaryActionText = "Sign Up",
+  primaryActionText = "Start Here",
   secondaryActionUrl = "#",
-  secondaryActionText = "Search Hotels"
+  secondaryActionText = "Contribute"
 }) => {
   return (
     <Container>
