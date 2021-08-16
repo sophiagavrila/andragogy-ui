@@ -44,10 +44,10 @@ const Actions = styled.div`
 export default ({
   navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">About</NavLink>
-      <NavLink href="#">Blog</NavLink>
-      <NavLink href="#">Pricing</NavLink>
-      <NavLink href="#">Login</NavLink>
+      <NavLink href="#">Step 1</NavLink>
+      <NavLink href="#">Step 2</NavLink>
+      <NavLink href="#">Step 3</NavLink>
+      <NavLink href="#">Step 4</NavLink>
     </NavLinks>
   ],
   heading = (
@@ -55,7 +55,7 @@ export default ({
       A Step-By-Step Guide
       <wbr />
       <br />
-      <span tw="text-primary-500">to Effective Training</span>
+      <span tw="text-orange-600">to Effective Training</span>
     </>
   ),
   description = "We've been in the hotels business across the world for 5 years now. We assure you that you will always enjoy your stay with us.",
