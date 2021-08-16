@@ -79,7 +79,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/#" tw="lg:ml-12!">
         Login
       </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Contribute</PrimaryLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://github.com/sophiagavrila/andragogy-ui/pulls" target="_blank">Contribute</PrimaryLink>
     </NavLinks>
   ];
 
@@ -89,7 +89,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-      Treact
+      Train the Trainer
     </LogoLink>
   );
 
