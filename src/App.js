@@ -18,6 +18,8 @@ function App() {
       <CodeDemo />
       <Blog />
       <FAQ />
+
+
     </AnimationRevealPage>
   );
 }
