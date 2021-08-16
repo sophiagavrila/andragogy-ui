@@ -22,12 +22,12 @@ const Image = styled.img(props => [
 ]);
 
 const DecoratorBlob = styled(SvgDotPattern)(() => [
-  tw`w-20 h-20 absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2 fill-current text-primary-500 -z-10`
+  tw`w-20 h-20 absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2 fill-current text-orange-600 -z-10`
 ]);
 
 const TextContent = tw.div`lg:py-8 text-center md:text-left`;
 
-const Subheading = tw(SubheadingBase)`text-center md:text-left`;
+const Subheading = tw(SubheadingBase)`text-center text-orange-600 md:text-left`;
 const Heading = tw(
   SectionHeading
 )`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
@@ -40,10 +40,10 @@ const StepHeading = tw.h6`leading-none text-xl font-semibold`;
 const StepDescription = tw.p`mt-3 max-w-xs leading-loose text-sm text-gray-600 font-medium`;
 
 export default ({
-  subheading = "Our Expertise",
+  subheading = "The Goal",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+      Designed & Tested to <span tw="text-orange-600">Engage</span> Associates.
     </>
   ),
   imageSrc = TeamIllustrationSrc,
@@ -59,15 +59,19 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      heading: "Front Loading",
+      description: "Front loading begins by consciously building a strong foundation of theory that will enable the learner to do the inquiry & problem solving, with minimal guidance and support."
     },
     {
-      heading: "Download",
+      heading: "Code-Along Demo",
       description: "Browse and Download the template that you like from the marketplace."
     },
     {
-      heading: "Run",
+      heading: "Formative Assessment",
+      description: "Follow the instructions to setup and customize the template to your needs."
+    },
+        {
+      heading: "Self-Study",
       description: "Follow the instructions to setup and customize the template to your needs."
     }
   ];

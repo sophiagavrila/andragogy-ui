@@ -56,13 +56,14 @@ export default ({ roundedHeaderButton }) => {
               4-Step Approach To <span tw="text-orange-600">Effective Training.</span>
             </Heading>
             <Paragraph>
-              The purpose of this page is to present a streamlined approach to delivering content.  These 4 steps represent a structure
-              w
+              The purpose of this page is to present a streamlined approach to delivering content.  
+              These 4 steps represent a structure best followed when teaching a particular topic included on the curriculum.  
+              This model can be applied to all technologies and works well within a virtual education model.
             </Paragraph>
-            <Actions>
+            {/* <Actions>
               <input type="text" placeholder="Your E-mail Address" />
               <button>Get Started</button>
-            </Actions>
+            </Actions> */}
             <CustomersLogoStrip>
               <p>Curricula in which this method has been utilized</p>
               <img src={CustomersLogoStripImage} alt="Revature Curricula" />
