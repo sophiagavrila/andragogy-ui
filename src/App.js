@@ -8,6 +8,7 @@ import Card from "components/cards/TwoTrendingPreviewCardsWithImage"
 import Feature from "components/features/TwoColWithSteps"
 import Blog from "components/blogs/ThreeColSimpleWithImageAndDashedBorder"
 import FrontLoading from "components/steps/FrontLoading"
+import CodeDemo from "components/steps/CodeDemo"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Feature />
       <FrontLoading />
+      <CodeDemo />
       <Blog />
       <FAQ />
     </AnimationRevealPage>

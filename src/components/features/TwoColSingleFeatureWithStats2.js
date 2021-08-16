@@ -6,6 +6,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import StatsIllustrationSrc from "images/stats-illustration.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
+import myGif from "images/slides.gif";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -46,10 +47,10 @@ export default ({
      Front Loading.
     </>
   ),
-  description = "Front loading means punctuating the key learning points before an activity or experience takes place, rather than or in combination with, debriefing it afterwards.",
+  description = "Front loading means punctuating the key learning points before an activity or experience takes place, rather than or in combination with, debriefing it afterwards. I post the topics to be covered, then spend 10 - 15 min on slides about the topic.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://aplusala.org/best-practices-center/2018/03/08/regie-routman-students-learn-best-when-we-frontload-lessons/",
-  imageSrc = StatsIllustrationSrc,
+  imageSrc = myGif,
   imageCss = null,
   imageContainerCss = null,
   imageDecoratorBlob = false,
@@ -81,7 +82,7 @@ export default ({
     <Container>
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
         <ImageColumn css={imageContainerCss}>
-          {imageInsideDiv ? <Image imageSrc={imageSrc} css={imageCss} /> : <img src={imageSrc} css={imageCss} alt="" />}
+          {imageInsideDiv ? <Image imageSrc={imageSrc} css={imageCss} /> : <img src={imageSrc} css={imageCss} alt="Gif of slides" />}
           {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
@@ -89,14 +90,14 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <Statistics>
+            {/* <Statistics>
               {statistics.map((statistic, index) => (
                 <Statistic key={index}>
                   <Value>{statistic.value}</Value>
                   <Key>{statistic.key}</Key>
                 </Statistic>
               ))}
-            </Statistics>
+            </Statistics> */}
             <PrimaryButton as="a" href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>
