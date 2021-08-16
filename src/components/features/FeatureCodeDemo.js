@@ -42,9 +42,9 @@ export default ({
      Code Demo.
     </>
   ),
-  description = "Front loading means punctuating the key learning points before an activity or experience takes place, rather than or in combination with, debriefing it afterwards. I post the topics to be covered, then spend 10 - 15 min on slides about the topic.",
-  primaryButtonText = "Example",
-  primaryButtonUrl = "https://github.com/sophiagavrila/MultiThreadingDemo",
+  description = "The Code Demo is where we put the theory to work by opening up our editors and building a program. I code, and associates code along, talking through the example so as to demonstrate the aforementioned principles. Personally I've always found it helpful to prepare the program (and talking notes) in the code before hand.  Below is an example of a threads demo.",
+  primaryButtonText = "Demo Example",
+  primaryButtonUrl = "https://github.com/sophiagavrila/MultiThreadingDemo/blob/main/src/main/java/com/example/A/A_ThreadCreation.java",
   imageInsideDiv = true,
   textOnLeft = true
 }) => {
