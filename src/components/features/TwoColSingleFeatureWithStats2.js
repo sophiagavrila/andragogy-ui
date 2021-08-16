@@ -40,15 +40,15 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 ]);
 
 export default ({
-  subheading = "Our Track Record",
+  subheading = "Step 1",
   heading = (
     <>
-      We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
+     Front Loading.
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Front loading means punctuating the key learning points before an activity or experience takes place, rather than or in combination with, debriefing it afterwards.",
   primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "https://aplusala.org/best-practices-center/2018/03/08/regie-routman-students-learn-best-when-we-frontload-lessons/",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
   imageContainerCss = null,
