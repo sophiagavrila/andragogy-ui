@@ -72,12 +72,12 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">Step 1</NavLink>
-      <NavLink href="/#">Step 2</NavLink>
-      <NavLink href="/#">Step 3</NavLink>
-      <NavLink href="/#">Step 4</NavLink>
+      <NavLink href="/#">Front Loading</NavLink>
+      <NavLink href="/#">Code</NavLink>
+      <NavLink href="/#">Assessment</NavLink>
+      <NavLink href="/#">Self-Study</NavLink>
       <NavLink href="/#" tw="lg:ml-12!">
-        Login
+        FAQ
       </NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://github.com/sophiagavrila/andragogy-ui/pulls" target="_blank">Contribute</PrimaryLink>
     </NavLinks>

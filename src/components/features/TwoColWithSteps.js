@@ -60,15 +60,15 @@ export default ({
   const defaultSteps = [
     {
       heading: "Front Loading",
-      description: "Front loading begins by consciously building a strong foundation of theory that will enable the learner to do the inquiry & problem solving, with minimal guidance and support."
+      description: "Front loading begins by consciously building a strong foundation of theory that will enable the learner to do the inquiry & problem solving, with minimal guidance and support. I like slides."
     },
     {
       heading: "Code-Along Demo",
-      description: "Browse and Download the template that you like from the marketplace."
+      description: "While screen sharing, I build a demo application as assocaites code along. Questions are heavily encouraged. The demo comes from modules I prepared prior, which I have open on a separate monitor, along with talking points."
     },
     {
       heading: "Formative Assessment",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      description: "Throughout the coding demo, the trainer ."
     },
         {
       heading: "Self-Study",
