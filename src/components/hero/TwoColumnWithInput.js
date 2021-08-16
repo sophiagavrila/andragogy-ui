@@ -56,8 +56,8 @@ export default ({ roundedHeaderButton }) => {
               4-Step Approach To <span tw="text-orange-600">Effective Training.</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+              The purpose of this page is to present a streamlined approach to delivering content.  These 4 steps represent a structure
+              w
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Your E-mail Address" />
@@ -65,7 +65,7 @@ export default ({ roundedHeaderButton }) => {
             </Actions>
             <CustomersLogoStrip>
               <p>Curricula in which this method has been utilized</p>
-              <img src={CustomersLogoStripImage} alt="Our Customers" />
+              <img src={CustomersLogoStripImage} alt="Revature Curricula" />
             </CustomersLogoStrip>
           </LeftColumn>
           <RightColumn>

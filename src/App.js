@@ -8,6 +8,7 @@ function App() {
   return (
     <AnimationRevealPage>
       <Hero />
+      
     </AnimationRevealPage>
   );
 }
