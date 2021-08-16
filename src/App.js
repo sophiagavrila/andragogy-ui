@@ -6,13 +6,17 @@ import Hero from "components/hero/TwoColumnWithInput"
 import FAQ from "components/faqs/SingleCol"
 import Card from "components/cards/TwoTrendingPreviewCardsWithImage"
 import Feature from "components/features/TwoColWithSteps"
+import Blog from "components/blogs/ThreeColSimpleWithImageAndDashedBorder"
+import FrontLoading from "components/steps/FrontLoading"
 
 function App() {
   return (
     <AnimationRevealPage>
+
       <Hero />
       <Feature />
-      <Card />
+      <FrontLoading />
+      <Blog />
       <FAQ />
     </AnimationRevealPage>
   );

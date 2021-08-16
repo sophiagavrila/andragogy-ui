@@ -64,15 +64,15 @@ export default ({
     },
     {
       heading: "Code-Along Demo",
-      description: "While screen sharing, I build a demo application as assocaites code along. Questions are heavily encouraged. The demo comes from modules I prepared prior, which I have open on a separate monitor, along with talking points."
+      description: "While screen sharing, I build a demo application as assocaites code along. Questions are encouraged. The code comes from prepared modules open on a separate monitor, plus talking points."
     },
     {
       heading: "Formative Assessment",
-      description: "Throughout the coding demo, the trainer ."
+      description: "Throughout the coding demo, I assign challenges for associates to solve within the demo. We solve them together."
     },
         {
       heading: "Self-Study",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      description: "After the coding demo and in-lesson challenges, I assign resources for assocaites to research as well as homework."
     }
   ];
 
