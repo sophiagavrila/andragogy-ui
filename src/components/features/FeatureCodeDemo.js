@@ -5,12 +5,12 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
-import myGif from "images/slides.gif";
+import threads from "images/threads.png";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
-const ImageColumn = tw(Column)`md:w-5/12 flex-shrink-0 h-80 md:h-auto relative`;
+const ImageColumn = tw(Column)`md:w-1/2 lg:w-1/3 flex-auto h-80 md:h-144`;
 const TextColumn = styled(Column)(props => [
   tw`md:w-7/12 mt-16 md:mt-0`,
   props.textOnLeft ? tw`md:mr-12 lg:mr-16 md:order-first` : tw`md:ml-12 lg:ml-16 md:order-last`
@@ -36,49 +36,26 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 
 // eslint-disable-next-line 
 export default ({
-  subheading = "Step 1",
+  subheading = "Step 2",
   heading = (
     <>
-     Front Loading.
+     Code Demo.
     </>
   ),
   description = "Front loading means punctuating the key learning points before an activity or experience takes place, rather than or in combination with, debriefing it afterwards. I post the topics to be covered, then spend 10 - 15 min on slides about the topic.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://aplusala.org/best-practices-center/2018/03/08/regie-routman-students-learn-best-when-we-frontload-lessons/",
-  imageSrc = myGif,
-  imageCss = null,
-  imageContainerCss = null,
-  imageDecoratorBlob = false,
-  imageDecoratorBlobCss = null,
+  primaryButtonText = "Example",
+  primaryButtonUrl = "https://github.com/sophiagavrila/MultiThreadingDemo",
   imageInsideDiv = true,
-  statistics = null,
-  textOnLeft = false
+  textOnLeft = true
 }) => {
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
   //Change the statistics variable as you like, add or delete objects
-  const defaultStatistics = [
-    {
-      key: "Clients",
-      value: "2282+"
-    },
-    {
-      key: "Projects",
-      value: "3891+"
-    },
-    {
-      key: "Awards",
-      value: "1000+"
-    }
-  ];
-
-  if (!statistics) statistics = defaultStatistics;
 
   return (
     <Container>
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
-        <ImageColumn css={imageContainerCss}>
-          {imageInsideDiv ? <Image imageSrc={imageSrc} css={imageCss} /> : <img src={imageSrc} css={imageCss} alt="Gif of slides" />}
-          {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
+      <ImageColumn>
+          <Image imageSrc="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>

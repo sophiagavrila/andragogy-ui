@@ -45,6 +45,7 @@ const DecoratorBlob2 = tw(
   SvgDecoratorBlob2
 )`-z-10 absolute top-0 left-0 w-48 h-48 transform -translate-x-32 translate-y-full opacity-25`;
 
+// eslint-disable-next-line 
 export default ({
   subheading = "Blog",
   heading = <>We Love <span tw="text-primary-500">Writing.</span></>,

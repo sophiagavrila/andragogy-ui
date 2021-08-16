@@ -37,7 +37,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 `;
 
 
-
+// eslint-disable-next-line 
 export default ({
   subheading = "FAQS",
   heading = "You have Questions ?",
