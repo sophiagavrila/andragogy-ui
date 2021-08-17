@@ -50,7 +50,7 @@ export default ({
   //Change the statistics variable as you like, add or delete objects
 
   return (
-    <Container>
+    <Container id="study">
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
       <ImageColumn>
           <Image imageSrc="https://images.assetsdelivery.com/compings_v2/yellowsdesign/yellowsdesign1902/yellowsdesign190200098.jpg" />

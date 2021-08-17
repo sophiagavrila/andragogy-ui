@@ -10,6 +10,8 @@ import logo from "../../images/logo.svg";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
+import { Link } from 'react-scroll'
+
 const Header = tw.header`
   flex justify-between items-center
   max-w-screen-xl mx-auto
@@ -73,14 +75,14 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">Front Loading</NavLink>
-      <NavLink href="/#">Code</NavLink>
-      <NavLink href="/#">Assessment</NavLink>
-      <NavLink href="/#">Self-Study</NavLink>
-      <NavLink href="/#" tw="lg:ml-12!">
+      <Link to="front" smooth={true}><NavLink>Front Loading</NavLink></Link>
+      <Link to="demo" smooth={true}><NavLink >Code Demo</NavLink></Link>
+      <Link to="assess" smooth={true}><NavLink >Asessment</NavLink></Link>
+      <Link to="study" smooth={true}><NavLink >Self-Study</NavLink></Link>
+      <Link to="faq" smooth={true}><NavLink tw="lg:ml-12!">
         FAQ
-      </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://github.com/sophiagavrila/andragogy-ui/pulls" target="_blank">Contribute</PrimaryLink>
+      </NavLink></Link>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`} href="https://github.com/sophiagavrila/andragogy-ui/pulls" target="_blank">Contribute</PrimaryLink>
     </NavLinks>
   ];
 
@@ -88,7 +90,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
 
   const defaultLogoLink = (
-    <LogoLink href="/">
+    <LogoLink href="/andragogy-ui">
       <img src={logo} alt="logo" />
       Train the Trainer
     </LogoLink>
