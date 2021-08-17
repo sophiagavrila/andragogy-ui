@@ -42,7 +42,7 @@ export default ({
   ),
   description = "The Code Demo is where we put the theory to work by opening up our editors and building a program. I code, and associates code along, talking through the example so as to demonstrate the aforementioned principles. Personally I've always found it helpful to prepare the program (and talking notes) in the code before hand.  Below is an example of a threads demo.",
   primaryButtonText = "Demo Example",
-  primaryButtonUrl = "https://github.com/sophiagavrila/MultiThreadingDemo/blob/main/src/main/java/com/example/A/A_ThreadCreation.java",
+  primaryButtonUrl = "https://github.com/210517-Enterprise/demos/tree/main/week1/FirstJavaProgram",
   imageInsideDiv = true,
   textOnLeft = true
 }) => {
