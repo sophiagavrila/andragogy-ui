@@ -57,7 +57,7 @@ export default ({ roundedHeaderButton }) => {
               4-Step Approach To <span tw="text-orange-600">Effective Training.</span>
             </Heading>
             <Paragraph>
-              Nobody likes buggy demos, and disorganized lessons. The purpose of this page is to present a streamlined approach for delivering content in the most organized way possible.  
+              Nobody likes buggy demos, and disorganized lessons. The purpose of this page is to propose a standardized content delivery approach.  
               In my experience as a trainer, I've discovered that breaking content delivery into these 4 steps has 
               faciliated an engaging and productive learning environment for any topic.   
               This model can be applied to all technologies and works well within a virtual education model.

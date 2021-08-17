@@ -4,7 +4,6 @@ import styled from "styled-components";
 import {css} from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading as HeadingTitle, Subheading } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import { ReactComponent as UserIcon } from "feather-icons/dist/icons/user.svg";
 import { ReactComponent as TagIcon } from "feather-icons/dist/icons/tag.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
@@ -49,7 +48,7 @@ const DecoratorBlob2 = tw(
 export default ({
   subheading = "Step 3",
   heading = <>Assessment</>,
-  description = "There are three main forms of assessment that I've found effective for associates.  They are either FORMATIVE (assigned daily to reinforce recently covered topics) or SUMMATIVE (assigned once every 3 weeks to demonstrate accumulated mastery over a collection of technologies learned). Below I've included a description of these 3 strategies, and below this component is a list of more Github Classroom Assignment Templattes that you are welcome to distribute amonsgt ",
+  description = "There are three main forms of assessment that I've found effective for associates.  They are either FORMATIVE (assigned daily to reinforce recently covered topics) or SUMMATIVE (assigned once every 3 weeks to demonstrate accumulated mastery over a collection of technologies learned). Below I've included a description of these 3 strategies, and below this component is a list of more Github Classroom Assignment Templates that you are welcome to use.",
 
 }) => {
   const blogPosts = [

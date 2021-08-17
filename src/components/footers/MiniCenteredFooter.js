@@ -36,16 +36,16 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+            <LogoText>More Practice Assignments</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link target="_blank" href="https://github.com/sophiagavrila/DS-A-practice">Data Structures & Algorithms</Link>
+            <Link target="_blank" href="https://github.com/sophiagavrila/stream-practice">Stream API</Link>
+            <Link target="_blank" href="https://leetcode.com/list/xoqag3yj/">LeetCode: Blind 75</Link>
+            <Link target="_blank" href="https://github.com/210517-Enterprise/demos/tree/main/extras/angular">Angular Demo</Link>
+            <Link target="_blank" href="https://github.com/sophiagavrila/adventure-game">Servlet Integration</Link>
           </LinksContainer>
-          <SocialLinksContainer>
+          {/* <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />
             </SocialLink>
@@ -55,10 +55,10 @@ export default () => {
             <SocialLink href="https://youtube.com">
               <YoutubeIcon />
             </SocialLink>
-          </SocialLinksContainer>
-          <CopyrightText>
+          </SocialLinksContainer> */}
+          {/* <CopyrightText>
             &copy; Copyright 2020, Treact Inc. All Rights Reserved.
-          </CopyrightText>
+          </CopyrightText> */}
         </Row>
       </Content>
     </Container>

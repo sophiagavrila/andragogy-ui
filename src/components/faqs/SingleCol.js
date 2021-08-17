@@ -40,29 +40,29 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 // eslint-disable-next-line 
 export default ({
   subheading = "FAQS",
-  heading = "You have Questions ?",
-  description = "And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  heading = "Any Questions?",
+  description = "Please note: This section is still under construction.",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "As a new trainer how should I incorporate these strategies in my own practice?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "This guide is only an expose of resources and strategies that have worked in my experience.  You are welcome to consume, use, and modify any of the above resources.  Hopefully this site serves as a jump off point to your own creative style of training."
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "Do you prepare code demos before hand, or figure it out as you go along?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "I always have heavy notes prepared.  Sometimes it's useful for assocaites to explore different material and experiment with them with unplanned content."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "What happens if I encounter a bug as I'm live-demoing?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Development is never perfect! Bugs will happen, and debugging them in front of your associates is a valuable part of their training."
     },
-    {
-      question: "Where can I reach you for support ?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }
+    // {
+    //   question: "Where can I reach you for support ?",
+    //   answer:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    // }
   ]
 }) => {
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(null);

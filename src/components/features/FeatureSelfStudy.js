@@ -34,15 +34,15 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block m
 
 // eslint-disable-next-line 
 export default ({
-  subheading = "Step 2",
+  subheading = "Step 4",
   heading = (
     <>
-     Code Demo.
+     Self Study.
     </>
   ),
-  description = "The Code Demo is where we put the theory to work by opening up our editors and building a program. I code, and associates code along, talking through the example so as to demonstrate the aforementioned principles. Personally I've always found it helpful to prepare the program (and talking notes) in the code before hand.  Below is an example of a threads demo.",
-  primaryButtonText = "Demo Example",
-  primaryButtonUrl = "https://github.com/sophiagavrila/MultiThreadingDemo/blob/main/src/main/java/com/example/A/A_ThreadCreation.java",
+  description = "Asynchrounous self-study is crucial to allow assocaites to focus on areas they are most interested in (or want to understand a bit better based on the outcome of the assessment phase). This helps reduce feelings of frustration, anxiety, or boredom in lecture.  I've found it most effective to allow at least 3 hours after lecture so that they can explore the aforementioned topics at their own pace.  I guide this self study by providing a list of topics and questions that they should research the ansewers to, every day.",
+  primaryButtonText = "Daily Self Study Questions",
+  primaryButtonUrl = "https://github.com/210517-Enterprise/demos/blob/main/week5/README.md",
   imageInsideDiv = true,
   textOnLeft = true
 }) => {
@@ -60,7 +60,7 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <PrimaryButton as="a" href={primaryButtonUrl}>
+            <PrimaryButton as="a" target='_blank' href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>

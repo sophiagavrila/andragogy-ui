@@ -8,6 +8,8 @@ import Feature from "components/features/TwoColWithSteps"
 import Blog from "components/blogs/ThreeColSimpleWithImageAndDashedBorder"
 import FrontLoading from "components/steps/FrontLoading"
 import CodeDemo from "components/steps/CodeDemo"
+import Footer from "components/footers/MiniCenteredFooter"
+import SelfStudy from "components/steps/SelfStudy"
 
 function App() {
   return (
@@ -17,9 +19,9 @@ function App() {
       <FrontLoading />
       <CodeDemo />
       <Blog />
+      <Footer />
+      <SelfStudy />
       <FAQ />
-
-
     </AnimationRevealPage>
   );
 }
