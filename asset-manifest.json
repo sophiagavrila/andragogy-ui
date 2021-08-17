@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/andragogy-ui/static/css/main.ab41c348.chunk.css",
+    "main.js": "/andragogy-ui/static/js/main.7ed3ae8b.chunk.js",
+    "main.js.map": "/andragogy-ui/static/js/main.7ed3ae8b.chunk.js.map",
+    "runtime-main.js": "/andragogy-ui/static/js/runtime-main.49c7c6b5.js",
+    "runtime-main.js.map": "/andragogy-ui/static/js/runtime-main.49c7c6b5.js.map",
+    "static/css/2.99014a14.chunk.css": "/andragogy-ui/static/css/2.99014a14.chunk.css",
+    "static/js/2.99662954.chunk.js": "/andragogy-ui/static/js/2.99662954.chunk.js",
+    "static/js/2.99662954.chunk.js.map": "/andragogy-ui/static/js/2.99662954.chunk.js.map",
+    "static/js/3.e8331f63.chunk.js": "/andragogy-ui/static/js/3.e8331f63.chunk.js",
+    "static/js/3.e8331f63.chunk.js.map": "/andragogy-ui/static/js/3.e8331f63.chunk.js.map",
+    "index.html": "/andragogy-ui/index.html",
+    "static/css/2.99014a14.chunk.css.map": "/andragogy-ui/static/css/2.99014a14.chunk.css.map",
+    "static/css/main.ab41c348.chunk.css.map": "/andragogy-ui/static/css/main.ab41c348.chunk.css.map",
+    "static/js/2.99662954.chunk.js.LICENSE.txt": "/andragogy-ui/static/js/2.99662954.chunk.js.LICENSE.txt",
+    "static/media/chevron-down.svg": "/andragogy-ui/static/media/chevron-down.c3e123cf.svg",
+    "static/media/design-illustration-2.38ccc1bd.svg": "/andragogy-ui/static/media/design-illustration-2.38ccc1bd.svg",
+    "static/media/dot-pattern.e52f8ce4.svg": "/andragogy-ui/static/media/dot-pattern.e52f8ce4.svg",
+    "static/media/facebook-icon.cc908d41.svg": "/andragogy-ui/static/media/facebook-icon.cc908d41.svg",
+    "static/media/logo.a71c717f.svg": "/andragogy-ui/static/media/logo.a71c717f.svg",
+    "static/media/menu.svg": "/andragogy-ui/static/media/menu.644fa295.svg",
+    "static/media/slides.fd34508d.gif": "/andragogy-ui/static/media/slides.fd34508d.gif",
+    "static/media/svg-decorator-blob-1.4b261446.svg": "/andragogy-ui/static/media/svg-decorator-blob-1.4b261446.svg",
+    "static/media/svg-decorator-blob-3.5c569394.svg": "/andragogy-ui/static/media/svg-decorator-blob-3.5c569394.svg",
+    "static/media/svg-decorator-blob-7.a72c1f4f.svg": "/andragogy-ui/static/media/svg-decorator-blob-7.a72c1f4f.svg",
+    "static/media/svg-decorator-blob-8.7f469eaf.svg": "/andragogy-ui/static/media/svg-decorator-blob-8.7f469eaf.svg",
+    "static/media/tag.svg": "/andragogy-ui/static/media/tag.00341c40.svg",
+    "static/media/team-illustration-2.b62ca855.svg": "/andragogy-ui/static/media/team-illustration-2.b62ca855.svg",
+    "static/media/twitter-icon.82807cb8.svg": "/andragogy-ui/static/media/twitter-icon.82807cb8.svg",
+    "static/media/x.svg": "/andragogy-ui/static/media/x.6c9a4ba7.svg",
+    "static/media/youtube-icon.432d9649.svg": "/andragogy-ui/static/media/youtube-icon.432d9649.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49c7c6b5.js",
+    "static/css/2.99014a14.chunk.css",
+    "static/js/2.99662954.chunk.js",
+    "static/css/main.ab41c348.chunk.css",
+    "static/js/main.7ed3ae8b.chunk.js"
+  ]
+}
