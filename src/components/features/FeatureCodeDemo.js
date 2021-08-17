@@ -60,7 +60,7 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <PrimaryButton as="a" href={primaryButtonUrl}>
+            <PrimaryButton as="a" target='_blank' href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>
