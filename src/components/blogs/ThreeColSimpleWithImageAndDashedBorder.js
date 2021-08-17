@@ -77,7 +77,7 @@ export default ({
         "https://www.livetecs.com/wp-content/uploads/2019/05/Project-Management-2.png",
       // frequency: "Steve Schoger",
       category: "Summative: 1x per month",
-      title: "Curicculum Standard Projects",
+      title: "Curiculum Standard Projects",
       description: "Most curricula have four standard projects that are to be completed about once every three weeks to implement the collective technolgoies learnt over the past couple weeks.  I find it beneficial to give assocaites clear guide-lines, especially in group projects. Below is an example for Java/MSA P1",
       url: "https://github.com/sophiagavrila/project-1",
       buttondesc: "Java/MSA P1 Guidelines"
