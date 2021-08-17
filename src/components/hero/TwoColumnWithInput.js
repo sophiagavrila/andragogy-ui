@@ -8,7 +8,7 @@ import Header from "../headers/light.js";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import DesignIllustration from "../../images/design-illustration-2.svg";
-import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
+import CustomersLogoStripImage from "../../images/rev-logo.png";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -41,7 +41,7 @@ const CustomersLogoStrip = styled.div`
     ${tw`uppercase text-sm lg:text-xs tracking-wider font-bold text-gray-500`}
   }
   img {
-    ${tw`mt-4 w-full lg:pr-16 xl:pr-32 opacity-50`}
+    ${tw`mt-4 lg:pr-16 lg:pr-32 opacity-50`}
   }
 `;
 
@@ -57,9 +57,9 @@ export default ({ roundedHeaderButton }) => {
               4-Step Approach To <span tw="text-orange-600">Effective Training.</span>
             </Heading>
             <Paragraph>
-              Nobody likes buggy demos, and disorganized lessons. The purpose of this page is to propose a standardized content delivery approach.  
+              Nobody likes buggy demos, or disorganized lesson plans. The purpose of this page is to propose a standardized content delivery approach.  
               In my experience as a trainer, I've discovered that breaking content delivery into these 4 steps has 
-              faciliated an engaging and productive learning environment for any topic.   
+              faciliated an engaging and productive learning environment.   
               This model can be applied to all technologies and works well within a virtual education model.
             </Paragraph>
             {/* <Actions>
@@ -67,7 +67,7 @@ export default ({ roundedHeaderButton }) => {
               <button>Get Started</button>
             </Actions> */}
             <CustomersLogoStrip>
-              <p>Curricula in which this method has been utilized</p>
+              {/* <p>Curricula in which this method has been utilized</p> */}
               <img src={CustomersLogoStripImage} alt="Revature Curricula" />
             </CustomersLogoStrip>
           </LeftColumn>
