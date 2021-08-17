@@ -15,7 +15,7 @@ const ThreeColumn = tw.div`flex flex-col items-center lg:items-stretch lg:flex-r
 const Column = tw.div`mt-24 lg:w-1/3`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
-const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-sm`;
+const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-4xl`;
 
 const Card = tw.div`lg:mx-4 xl:mx-8 max-w-sm flex flex-col h-full`;
 const Image = styled.div(props => [
@@ -49,37 +49,40 @@ const DecoratorBlob2 = tw(
 export default ({
   subheading = "Step 3",
   heading = <>Assessment</>,
-  description = "There are 3 main forms of formative assessment that I've found effective for associates to practice, as well as ",
+  description = "There are three main forms of assessment that I've found effective for associates.  They are either FORMATIVE (assigned daily to reinforce recently covered topics) or SUMMATIVE (assigned once every 3 weeks to demonstrate accumulated mastery over a collection of technologies learned). Below I've included a description of these 3 strategies, and below this component is a list of more Github Classroom Assignment Templattes that you are welcome to distribute amonsgt ",
 
 }) => {
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Adam Wathan",
-      category: "SEO",
-      title: "Optimizing your website for your main keyword",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://reddit.com"
+        "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png",
+      // frequency: "",
+      category: "Formative: 2x per week",
+      title: "HackerRank Contests",
+      description: "I typically assign 2 HackerRank problems per week. I assign the second one (the more difficult one) each Friday and have the assocaites talk me through their solution and thinking in a 1-on-1 on Monday. Below is a list to great problems to prepare associates for interviews. Shout out to Nick and Wezley!",
+      url: "https://revature0.sharepoint.com/:x:/s/trainers/EYBGzDfDVQFFj811uHC7OskB-b0g3kKvGWzTGrppD0SeRQ?e=FyG7cg",
+      buttondesc: "Verified HackerRank Problems"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1479660095429-2cf4e1360472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Owais Khan",
-      category: "Advertising",
-      title: "Creating The perfect advertisement campaign",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS92TbS9Vbdmr8BPZ04XendRFXmBFNCVpP7A&usqp=CAU",
+      // frequency: "Owais Khan",
+      category: "Formative: biweekly",
+      title: "Github Classroom Assignments",
+      description: "By leveraging GitHub Classroom, I like to build templates and assign them to my batch once a week or bi-weekly. Below is an example of a 20-Java question assignment in which associates must code 20 method implementations in order to pass the 100 JUnit tests.  These are auto-graded.",
+      url: "https://github.com/sophiagavrila/java-problems-template",
+      buttondesc: "20 Question Java Assignment"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1579869847514-7c1a19d2d2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-      author: "Steve Schoger",
-      category: "Social Media",
-      title: "Efficient management of your social media assets",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
-    }
+        "https://www.livetecs.com/wp-content/uploads/2019/05/Project-Management-2.png",
+      // frequency: "Steve Schoger",
+      category: "Summative: 1x per month",
+      title: "Curicculum Standard Projects",
+      description: "Most curricula have four standard projects that are to be completed about once every three weeks to implement the collective technolgoies learnt over the past couple weeks.  I find it beneficial to give assocaites clear guide-lines, especially in group projects. Below is an example for Java/MSA P1",
+      url: "https://github.com/sophiagavrila/project-1",
+      buttondesc: "Java/MSA P1 Guidelines"
+    },
   ];
   return (
     <Container>
@@ -96,10 +99,10 @@ export default ({
                 <Image imageSrc={post.imageSrc} />
                 <Details>
                   <MetaContainer>
-                    <Meta>
+                    {/* <Meta>
                       <UserIcon />
-                      <div>{post.author}</div>
-                    </Meta>
+                      <div>{post.frequency}</div>
+                    </Meta> */}
                     <Meta>
                       <TagIcon />
                       <div>{post.category}</div>
@@ -107,7 +110,7 @@ export default ({
                   </MetaContainer>
                   <Title>{post.title}</Title>
                   <Description>{post.description}</Description>
-                  <Link href={post.url}>Read Post</Link>
+                  <Link href={post.url}  target='_blank'>{post.buttondesc}</Link>
                 </Details>
               </Card>
             </Column>
