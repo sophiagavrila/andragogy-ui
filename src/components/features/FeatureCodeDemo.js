@@ -53,7 +53,7 @@ export default ({
     <Container>
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
       <ImageColumn>
-          <Image imageSrc="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" />
+          <Image imageSrc="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202010/programming_language_learning__1200x768.jpeg?e38EqZq_OJNimIdNYBODShI4G2WYPkgX&size=770:433" />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>

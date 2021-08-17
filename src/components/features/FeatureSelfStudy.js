@@ -53,7 +53,7 @@ export default ({
     <Container>
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
       <ImageColumn>
-          <Image imageSrc="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" />
+          <Image imageSrc="https://images.assetsdelivery.com/compings_v2/yellowsdesign/yellowsdesign1902/yellowsdesign190200098.jpg" />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
