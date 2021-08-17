@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/andragogy-ui/static/css/main.ab41c348.chunk.css",
-    "main.js": "/andragogy-ui/static/js/main.077477ac.chunk.js",
-    "main.js.map": "/andragogy-ui/static/js/main.077477ac.chunk.js.map",
+    "main.js": "/andragogy-ui/static/js/main.e8527445.chunk.js",
+    "main.js.map": "/andragogy-ui/static/js/main.e8527445.chunk.js.map",
     "runtime-main.js": "/andragogy-ui/static/js/runtime-main.2a7b13c0.js",
     "runtime-main.js.map": "/andragogy-ui/static/js/runtime-main.2a7b13c0.js.map",
     "static/css/2.99014a14.chunk.css": "/andragogy-ui/static/css/2.99014a14.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.99014a14.chunk.css",
     "static/js/2.de07b477.chunk.js",
     "static/css/main.ab41c348.chunk.css",
-    "static/js/main.077477ac.chunk.js"
+    "static/js/main.e8527445.chunk.js"
   ]
 }
